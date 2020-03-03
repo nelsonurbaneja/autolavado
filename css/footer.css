@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,500&display=swap");
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 150px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-weight: bold;
+  line-height: 1;
+  margin: 0;
+  font-size: .95em; }
+  .footer__copy {
+    text-transform: uppercase;
+    margin: 15px 0; }
+  .footer .icon {
+    color: #000;
+    margin: 5px;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s; }
+    .footer .icon:hover {
+      color: #67A2C0;
+      -webkit-transition: .5s;
+      -o-transition: .5s;
+      transition: .5s; }
+  .footer__phone {
+    text-transform: uppercase;
+    margin-top: 15px; }
